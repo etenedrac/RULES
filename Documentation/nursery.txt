@@ -1,0 +1,1917 @@
+Computing the rules for all the dataset...
+-----------------------------------------------------------------------------
+1. IF health is not_recom THEN Class is not_recom.
+	Precision:  1.0
+	Coverage:  0.3333333333333333
+2. IF parents is pretentious AND has_nurs is less_proper AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.022222222222222223
+3. IF parents is pretentious AND has_nurs is proper AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.022222222222222223
+4. IF parents is usual AND has_nurs is less_proper AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.022222222222222223
+5. IF parents is usual AND has_nurs is proper AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.022222222222222223
+6. IF parents is usual AND has_nurs is improper AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.022222222222222223
+7. IF has_nurs is very_crit AND form is foster AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.016666666666666666
+8. IF has_nurs is very_crit AND form is incomplete AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.016666666666666666
+9. IF has_nurs is very_crit AND form is completed AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.016666666666666666
+10. IF has_nurs is very_crit AND children is 3 AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.016666666666666666
+11. IF has_nurs is very_crit AND children is more AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.016666666666666666
+12. IF has_nurs is very_crit AND children is 2 AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.016666666666666666
+13. IF has_nurs is very_crit AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.022222222222222223
+14. IF has_nurs is very_crit AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.022222222222222223
+15. IF has_nurs is very_crit AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.03333333333333333
+16. IF parents is pretentious AND has_nurs is critical AND form is foster AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+17. IF parents is pretentious AND has_nurs is critical AND form is incomplete AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+18. IF parents is pretentious AND has_nurs is critical AND form is completed AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+19. IF parents is great_pret AND has_nurs is improper AND form is foster AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+20. IF parents is great_pret AND has_nurs is improper AND form is incomplete AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+21. IF parents is great_pret AND has_nurs is improper AND form is completed AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+22. IF parents is great_pret AND has_nurs is critical AND form is foster AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+23. IF parents is great_pret AND has_nurs is critical AND form is incomplete AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+24. IF parents is great_pret AND has_nurs is critical AND form is completed AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+25. IF parents is pretentious AND has_nurs is critical AND children is 3 AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+26. IF parents is pretentious AND has_nurs is critical AND children is more AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+27. IF parents is pretentious AND has_nurs is critical AND children is 2 AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+28. IF parents is great_pret AND has_nurs is improper AND children is 3 AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+29. IF parents is great_pret AND has_nurs is improper AND children is more AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+30. IF parents is great_pret AND has_nurs is improper AND children is 2 AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+31. IF parents is great_pret AND has_nurs is critical AND children is 3 AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+32. IF parents is great_pret AND has_nurs is critical AND children is more AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+33. IF parents is great_pret AND has_nurs is critical AND children is 2 AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+34. IF parents is pretentious AND has_nurs is critical AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+35. IF parents is pretentious AND has_nurs is critical AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+36. IF parents is great_pret AND has_nurs is improper AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+37. IF parents is great_pret AND has_nurs is improper AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+38. IF parents is great_pret AND has_nurs is critical AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+39. IF parents is great_pret AND has_nurs is critical AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+40. IF parents is pretentious AND has_nurs is critical AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.011111111111111112
+41. IF parents is great_pret AND has_nurs is improper AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.011111111111111112
+42. IF parents is great_pret AND has_nurs is critical AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.011111111111111112
+43. IF parents is pretentious AND has_nurs is less_proper AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+44. IF parents is pretentious AND has_nurs is proper AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+45. IF parents is pretentious AND has_nurs is improper AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+46. IF parents is pretentious AND has_nurs is improper AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+47. IF parents is usual AND has_nurs is less_proper AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+48. IF parents is usual AND has_nurs is proper AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+49. IF parents is usual AND has_nurs is improper AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+50. IF parents is usual AND has_nurs is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+51. IF parents is usual AND has_nurs is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+52. IF parents is great_pret AND has_nurs is less_proper AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+53. IF parents is great_pret AND has_nurs is less_proper AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+54. IF parents is great_pret AND has_nurs is proper AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+55. IF parents is great_pret AND has_nurs is proper AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+56. IF parents is great_pret AND form is foster AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.009259259259259259
+57. IF parents is great_pret AND form is foster AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.009259259259259259
+58. IF parents is great_pret AND form is incomplete AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.009259259259259259
+59. IF parents is great_pret AND form is completed AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.009259259259259259
+60. IF parents is great_pret AND form is foster AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.013888888888888888
+61. IF parents is great_pret AND children is 3 AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.009259259259259259
+62. IF parents is great_pret AND children is 3 AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.009259259259259259
+63. IF parents is great_pret AND children is more AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.009259259259259259
+64. IF parents is great_pret AND children is more AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.009259259259259259
+65. IF parents is great_pret AND children is 2 AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.009259259259259259
+66. IF parents is great_pret AND children is 3 AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.013888888888888888
+67. IF parents is great_pret AND children is more AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.013888888888888888
+68. IF has_nurs is less_proper AND form is complete AND children is 1 AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.004166666666666667
+69. IF has_nurs is proper AND form is complete AND children is 1 AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.004166666666666667
+70. IF has_nurs is critical AND form is foster AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+71. IF has_nurs is critical AND form is foster AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+72. IF has_nurs is critical AND form is incomplete AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+73. IF has_nurs is critical AND form is completed AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+74. IF has_nurs is very_crit AND form is foster AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+75. IF has_nurs is very_crit AND form is foster AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+76. IF has_nurs is very_crit AND form is incomplete AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+77. IF has_nurs is very_crit AND form is completed AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+78. IF has_nurs is critical AND form is foster AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.008333333333333333
+79. IF has_nurs is very_crit AND form is foster AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.008333333333333333
+80. IF has_nurs is very_crit AND form is foster AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+81. IF has_nurs is very_crit AND form is incomplete AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+82. IF has_nurs is very_crit AND form is completed AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+83. IF has_nurs is critical AND children is 3 AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+84. IF has_nurs is critical AND children is 3 AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+85. IF has_nurs is critical AND children is more AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+86. IF has_nurs is critical AND children is more AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+87. IF has_nurs is critical AND children is 2 AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+88. IF has_nurs is very_crit AND children is 3 AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+89. IF has_nurs is very_crit AND children is 3 AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+90. IF has_nurs is very_crit AND children is more AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+91. IF has_nurs is very_crit AND children is more AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+92. IF has_nurs is very_crit AND children is 2 AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+93. IF has_nurs is critical AND children is 3 AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.008333333333333333
+94. IF has_nurs is critical AND children is more AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.008333333333333333
+95. IF has_nurs is very_crit AND children is 3 AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.008333333333333333
+96. IF has_nurs is very_crit AND children is more AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.008333333333333333
+97. IF has_nurs is very_crit AND children is 3 AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+98. IF has_nurs is very_crit AND children is more AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+99. IF has_nurs is very_crit AND children is 2 AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.005555555555555556
+100. IF has_nurs is less_proper AND housing is convenient AND finance is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.011111111111111112
+101. IF has_nurs is proper AND housing is convenient AND finance is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.011111111111111112
+102. IF has_nurs is very_crit AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+103. IF has_nurs is very_crit AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.007407407407407408
+104. IF has_nurs is very_crit AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.011111111111111112
+105. IF parents is pretentious AND has_nurs is improper AND form is complete AND children is 1 AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+106. IF parents is pretentious AND has_nurs is improper AND form is complete AND children is 1 AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+107. IF parents is usual AND has_nurs is critical AND form is complete AND children is 1 AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+108. IF parents is usual AND has_nurs is critical AND form is complete AND children is 1 AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+109. IF parents is great_pret AND has_nurs is less_proper AND form is complete AND children is 1 AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+110. IF parents is great_pret AND has_nurs is proper AND form is complete AND children is 1 AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+111. IF parents is pretentious AND has_nurs is less_proper AND form is foster AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+112. IF parents is pretentious AND has_nurs is less_proper AND form is foster AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+113. IF parents is pretentious AND has_nurs is less_proper AND form is incomplete AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+114. IF parents is pretentious AND has_nurs is less_proper AND form is completed AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+115. IF parents is pretentious AND has_nurs is proper AND form is foster AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+116. IF parents is pretentious AND has_nurs is proper AND form is foster AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+117. IF parents is pretentious AND has_nurs is proper AND form is incomplete AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+118. IF parents is pretentious AND has_nurs is proper AND form is completed AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+119. IF parents is pretentious AND has_nurs is improper AND form is foster AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+120. IF parents is pretentious AND has_nurs is improper AND form is foster AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+121. IF parents is pretentious AND has_nurs is improper AND form is incomplete AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+122. IF parents is pretentious AND has_nurs is improper AND form is completed AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+123. IF parents is pretentious AND has_nurs is critical AND form is foster AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+124. IF parents is pretentious AND has_nurs is critical AND form is foster AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+125. IF parents is pretentious AND has_nurs is critical AND form is incomplete AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+126. IF parents is pretentious AND has_nurs is critical AND form is completed AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+127. IF parents is usual AND has_nurs is less_proper AND form is foster AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+128. IF parents is usual AND has_nurs is less_proper AND form is foster AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+129. IF parents is usual AND has_nurs is less_proper AND form is incomplete AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+130. IF parents is usual AND has_nurs is less_proper AND form is completed AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+131. IF parents is usual AND has_nurs is proper AND form is foster AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+132. IF parents is usual AND has_nurs is proper AND form is foster AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+133. IF parents is usual AND has_nurs is proper AND form is incomplete AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+134. IF parents is usual AND has_nurs is proper AND form is completed AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+135. IF parents is usual AND has_nurs is improper AND form is foster AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+136. IF parents is usual AND has_nurs is improper AND form is foster AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+137. IF parents is usual AND has_nurs is improper AND form is incomplete AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+138. IF parents is usual AND has_nurs is improper AND form is completed AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+139. IF parents is great_pret AND has_nurs is improper AND form is foster AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+140. IF parents is great_pret AND has_nurs is improper AND form is foster AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+141. IF parents is great_pret AND has_nurs is improper AND form is incomplete AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+142. IF parents is great_pret AND has_nurs is improper AND form is completed AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+143. IF parents is great_pret AND has_nurs is critical AND form is foster AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+144. IF parents is great_pret AND has_nurs is critical AND form is foster AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+145. IF parents is great_pret AND has_nurs is critical AND form is incomplete AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+146. IF parents is great_pret AND has_nurs is critical AND form is completed AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+147. IF parents is pretentious AND has_nurs is less_proper AND form is foster AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+148. IF parents is pretentious AND has_nurs is proper AND form is foster AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+149. IF parents is pretentious AND has_nurs is improper AND form is foster AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+150. IF parents is pretentious AND has_nurs is critical AND form is foster AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+151. IF parents is usual AND has_nurs is less_proper AND form is foster AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+152. IF parents is usual AND has_nurs is proper AND form is foster AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+153. IF parents is usual AND has_nurs is improper AND form is foster AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+154. IF parents is great_pret AND has_nurs is improper AND form is foster AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+155. IF parents is great_pret AND has_nurs is critical AND form is foster AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+156. IF parents is pretentious AND has_nurs is critical AND form is foster AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+157. IF parents is pretentious AND has_nurs is critical AND form is incomplete AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+158. IF parents is pretentious AND has_nurs is critical AND form is completed AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+159. IF parents is great_pret AND has_nurs is improper AND form is foster AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+160. IF parents is great_pret AND has_nurs is improper AND form is incomplete AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+161. IF parents is great_pret AND has_nurs is improper AND form is completed AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+162. IF parents is great_pret AND has_nurs is critical AND form is foster AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+163. IF parents is great_pret AND has_nurs is critical AND form is incomplete AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+164. IF parents is great_pret AND has_nurs is critical AND form is completed AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+165. IF parents is pretentious AND has_nurs is less_proper AND children is 3 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+166. IF parents is pretentious AND has_nurs is less_proper AND children is 3 AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+167. IF parents is pretentious AND has_nurs is less_proper AND children is more AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+168. IF parents is pretentious AND has_nurs is less_proper AND children is more AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+169. IF parents is pretentious AND has_nurs is less_proper AND children is 2 AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+170. IF parents is pretentious AND has_nurs is proper AND children is 3 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+171. IF parents is pretentious AND has_nurs is proper AND children is 3 AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+172. IF parents is pretentious AND has_nurs is proper AND children is more AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+173. IF parents is pretentious AND has_nurs is proper AND children is more AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+174. IF parents is pretentious AND has_nurs is proper AND children is 2 AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+175. IF parents is pretentious AND has_nurs is improper AND children is 3 AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+176. IF parents is pretentious AND has_nurs is improper AND children is 3 AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+177. IF parents is pretentious AND has_nurs is improper AND children is more AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+178. IF parents is pretentious AND has_nurs is improper AND children is more AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+179. IF parents is pretentious AND has_nurs is improper AND children is 2 AND housing is critical AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+180. IF parents is pretentious AND has_nurs is critical AND children is 3 AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+181. IF parents is pretentious AND has_nurs is critical AND children is 3 AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+182. IF parents is pretentious AND has_nurs is critical AND children is more AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+183. IF parents is pretentious AND has_nurs is critical AND children is more AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+184. IF parents is pretentious AND has_nurs is critical AND children is 2 AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+185. IF parents is usual AND has_nurs is less_proper AND children is 3 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+186. IF parents is usual AND has_nurs is less_proper AND children is 3 AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+187. IF parents is usual AND has_nurs is less_proper AND children is more AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+188. IF parents is usual AND has_nurs is less_proper AND children is more AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+189. IF parents is usual AND has_nurs is less_proper AND children is 2 AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+190. IF parents is usual AND has_nurs is proper AND children is 3 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+191. IF parents is usual AND has_nurs is proper AND children is 3 AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+192. IF parents is usual AND has_nurs is proper AND children is more AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+193. IF parents is usual AND has_nurs is proper AND children is more AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+194. IF parents is usual AND has_nurs is proper AND children is 2 AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+195. IF parents is usual AND has_nurs is improper AND children is 3 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+196. IF parents is usual AND has_nurs is improper AND children is 3 AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+197. IF parents is usual AND has_nurs is improper AND children is more AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+198. IF parents is usual AND has_nurs is improper AND children is more AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+199. IF parents is usual AND has_nurs is improper AND children is 2 AND housing is critical AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+200. IF parents is great_pret AND has_nurs is improper AND children is 3 AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+201. IF parents is great_pret AND has_nurs is improper AND children is 3 AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+202. IF parents is great_pret AND has_nurs is improper AND children is more AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+203. IF parents is great_pret AND has_nurs is improper AND children is more AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+204. IF parents is great_pret AND has_nurs is improper AND children is 2 AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+205. IF parents is great_pret AND has_nurs is critical AND children is 3 AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+206. IF parents is great_pret AND has_nurs is critical AND children is 3 AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+207. IF parents is great_pret AND has_nurs is critical AND children is more AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+208. IF parents is great_pret AND has_nurs is critical AND children is more AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+209. IF parents is great_pret AND has_nurs is critical AND children is 2 AND housing is critical AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+210. IF parents is pretentious AND has_nurs is less_proper AND children is 3 AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+211. IF parents is pretentious AND has_nurs is less_proper AND children is more AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+212. IF parents is pretentious AND has_nurs is proper AND children is 3 AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+213. IF parents is pretentious AND has_nurs is proper AND children is more AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+214. IF parents is pretentious AND has_nurs is improper AND children is 3 AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+215. IF parents is pretentious AND has_nurs is improper AND children is more AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+216. IF parents is pretentious AND has_nurs is critical AND children is 3 AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+217. IF parents is pretentious AND has_nurs is critical AND children is more AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+218. IF parents is usual AND has_nurs is less_proper AND children is 3 AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+219. IF parents is usual AND has_nurs is less_proper AND children is more AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+220. IF parents is usual AND has_nurs is proper AND children is 3 AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+221. IF parents is usual AND has_nurs is proper AND children is more AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+222. IF parents is usual AND has_nurs is improper AND children is 3 AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+223. IF parents is usual AND has_nurs is improper AND children is more AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+224. IF parents is great_pret AND has_nurs is improper AND children is 3 AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+225. IF parents is great_pret AND has_nurs is improper AND children is more AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+226. IF parents is great_pret AND has_nurs is critical AND children is 3 AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+227. IF parents is great_pret AND has_nurs is critical AND children is more AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+228. IF parents is pretentious AND has_nurs is critical AND children is 3 AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+229. IF parents is pretentious AND has_nurs is critical AND children is more AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+230. IF parents is pretentious AND has_nurs is critical AND children is 2 AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+231. IF parents is great_pret AND has_nurs is improper AND children is 3 AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+232. IF parents is great_pret AND has_nurs is improper AND children is more AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+233. IF parents is great_pret AND has_nurs is improper AND children is 2 AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+234. IF parents is great_pret AND has_nurs is critical AND children is 3 AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+235. IF parents is great_pret AND has_nurs is critical AND children is more AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+236. IF parents is great_pret AND has_nurs is critical AND children is 2 AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+237. IF parents is pretentious AND has_nurs is improper AND housing is convenient AND finance is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+238. IF parents is pretentious AND has_nurs is improper AND housing is convenient AND finance is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+239. IF parents is usual AND has_nurs is critical AND housing is convenient AND finance is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+240. IF parents is usual AND has_nurs is critical AND housing is convenient AND finance is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+241. IF parents is great_pret AND has_nurs is less_proper AND housing is convenient AND finance is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+242. IF parents is great_pret AND has_nurs is proper AND housing is convenient AND finance is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+243. IF parents is pretentious AND has_nurs is critical AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0024691358024691358
+244. IF parents is pretentious AND has_nurs is critical AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0024691358024691358
+245. IF parents is great_pret AND has_nurs is improper AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0024691358024691358
+246. IF parents is great_pret AND has_nurs is improper AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0024691358024691358
+247. IF parents is great_pret AND has_nurs is critical AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0024691358024691358
+248. IF parents is great_pret AND has_nurs is critical AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0024691358024691358
+249. IF parents is pretentious AND has_nurs is critical AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+250. IF parents is great_pret AND has_nurs is improper AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+251. IF parents is great_pret AND has_nurs is critical AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+252. IF parents is great_pret AND form is incomplete AND children is 2 AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0023148148148148147
+253. IF parents is great_pret AND form is incomplete AND children is 2 AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.003472222222222222
+254. IF parents is great_pret AND form is complete AND children is 1 AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0023148148148148147
+255. IF parents is great_pret AND form is complete AND children is 1 AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0023148148148148147
+256. IF parents is great_pret AND form is foster AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0030864197530864196
+257. IF parents is great_pret AND form is foster AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0030864197530864196
+258. IF parents is great_pret AND form is incomplete AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0030864197530864196
+259. IF parents is great_pret AND form is completed AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0030864197530864196
+260. IF parents is great_pret AND form is foster AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.004629629629629629
+261. IF parents is great_pret AND children is 3 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0030864197530864196
+262. IF parents is great_pret AND children is 3 AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0030864197530864196
+263. IF parents is great_pret AND children is more AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0030864197530864196
+264. IF parents is great_pret AND children is more AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0030864197530864196
+265. IF parents is great_pret AND children is 2 AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0030864197530864196
+266. IF parents is great_pret AND children is 3 AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.004629629629629629
+267. IF parents is great_pret AND children is more AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.004629629629629629
+268. IF parents is great_pret AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.006172839506172839
+269. IF parents is great_pret AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.006172839506172839
+270. IF has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+271. IF has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+272. IF has_nurs is less_proper AND form is completed AND children is 1 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+273. IF has_nurs is less_proper AND form is completed AND children is 1 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+274. IF has_nurs is less_proper AND form is completed AND children is 2 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+275. IF has_nurs is less_proper AND form is completed AND children is 2 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+276. IF has_nurs is less_proper AND form is complete AND children is 2 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+277. IF has_nurs is less_proper AND form is complete AND children is 2 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+278. IF has_nurs is proper AND form is incomplete AND children is 1 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+279. IF has_nurs is proper AND form is incomplete AND children is 1 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+280. IF has_nurs is proper AND form is completed AND children is 1 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+281. IF has_nurs is proper AND form is completed AND children is 1 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+282. IF has_nurs is proper AND form is completed AND children is 2 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+283. IF has_nurs is proper AND form is completed AND children is 2 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+284. IF has_nurs is proper AND form is complete AND children is 2 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+285. IF has_nurs is proper AND form is complete AND children is 2 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+286. IF has_nurs is critical AND form is incomplete AND children is 2 AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+287. IF has_nurs is very_crit AND form is incomplete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+288. IF has_nurs is critical AND form is incomplete AND children is 2 AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0020833333333333333
+289. IF has_nurs is very_crit AND form is incomplete AND children is 2 AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0020833333333333333
+290. IF has_nurs is less_proper AND form is complete AND children is 1 AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+291. IF has_nurs is proper AND form is complete AND children is 1 AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+292. IF has_nurs is critical AND form is complete AND children is 1 AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+293. IF has_nurs is critical AND form is complete AND children is 1 AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+294. IF has_nurs is very_crit AND form is complete AND children is 1 AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+295. IF has_nurs is very_crit AND form is complete AND children is 1 AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001388888888888889
+296. IF has_nurs is less_proper AND form is foster AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+297. IF has_nurs is less_proper AND form is foster AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+298. IF has_nurs is less_proper AND form is foster AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+299. IF has_nurs is less_proper AND form is foster AND housing is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+300. IF has_nurs is less_proper AND form is incomplete AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+301. IF has_nurs is less_proper AND form is incomplete AND housing is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+302. IF has_nurs is less_proper AND form is completed AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+303. IF has_nurs is less_proper AND form is completed AND housing is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+304. IF has_nurs is proper AND form is foster AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+305. IF has_nurs is proper AND form is foster AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+306. IF has_nurs is proper AND form is foster AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+307. IF has_nurs is proper AND form is foster AND housing is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+308. IF has_nurs is proper AND form is incomplete AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+309. IF has_nurs is proper AND form is incomplete AND housing is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+310. IF has_nurs is proper AND form is completed AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+311. IF has_nurs is proper AND form is completed AND housing is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+312. IF has_nurs is critical AND form is foster AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+313. IF has_nurs is critical AND form is foster AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+314. IF has_nurs is critical AND form is incomplete AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+315. IF has_nurs is critical AND form is completed AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+316. IF has_nurs is less_proper AND form is foster AND finance is inconv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+317. IF has_nurs is less_proper AND form is foster AND finance is inconv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+318. IF has_nurs is proper AND form is foster AND finance is inconv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+319. IF has_nurs is proper AND form is foster AND finance is inconv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+320. IF has_nurs is critical AND form is foster AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+321. IF has_nurs is less_proper AND children is 3 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+322. IF has_nurs is less_proper AND children is 3 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+323. IF has_nurs is less_proper AND children is 3 AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+324. IF has_nurs is less_proper AND children is 3 AND housing is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+325. IF has_nurs is less_proper AND children is more AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+326. IF has_nurs is less_proper AND children is more AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+327. IF has_nurs is less_proper AND children is more AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+328. IF has_nurs is less_proper AND children is more AND housing is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+329. IF has_nurs is less_proper AND children is 2 AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+330. IF has_nurs is less_proper AND children is 2 AND housing is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+331. IF has_nurs is proper AND children is 3 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+332. IF has_nurs is proper AND children is 3 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+333. IF has_nurs is proper AND children is 3 AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+334. IF has_nurs is proper AND children is 3 AND housing is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+335. IF has_nurs is proper AND children is more AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+336. IF has_nurs is proper AND children is more AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+337. IF has_nurs is proper AND children is more AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+338. IF has_nurs is proper AND children is more AND housing is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+339. IF has_nurs is proper AND children is 2 AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+340. IF has_nurs is proper AND children is 2 AND housing is critical AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+341. IF has_nurs is critical AND children is 3 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+342. IF has_nurs is critical AND children is 3 AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+343. IF has_nurs is critical AND children is more AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+344. IF has_nurs is critical AND children is more AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+345. IF has_nurs is critical AND children is 2 AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.001851851851851852
+346. IF has_nurs is less_proper AND children is 3 AND finance is inconv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+347. IF has_nurs is less_proper AND children is 3 AND finance is inconv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+348. IF has_nurs is less_proper AND children is more AND finance is inconv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+349. IF has_nurs is less_proper AND children is more AND finance is inconv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+350. IF has_nurs is proper AND children is 3 AND finance is inconv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+351. IF has_nurs is proper AND children is 3 AND finance is inconv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+352. IF has_nurs is proper AND children is more AND finance is inconv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+353. IF has_nurs is proper AND children is more AND finance is inconv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+354. IF has_nurs is critical AND children is 3 AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+355. IF has_nurs is critical AND children is more AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.002777777777777778
+356. IF has_nurs is less_proper AND housing is convenient AND finance is convenient AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+357. IF has_nurs is proper AND housing is convenient AND finance is convenient AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+358. IF has_nurs is critical AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+359. IF has_nurs is critical AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+360. IF has_nurs is very_crit AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+361. IF has_nurs is very_crit AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003703703703703704
+362. IF form is complete AND children is 1 AND housing is convenient AND finance is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.003472222222222222
+363. IF parents is pretentious AND has_nurs is less_proper AND form is incomplete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+364. IF parents is pretentious AND has_nurs is proper AND form is incomplete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+365. IF parents is pretentious AND has_nurs is improper AND form is incomplete AND children is 1 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+366. IF parents is pretentious AND has_nurs is improper AND form is incomplete AND children is 1 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+367. IF parents is pretentious AND has_nurs is improper AND form is incomplete AND children is 1 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+368. IF parents is pretentious AND has_nurs is improper AND form is incomplete AND children is 1 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+369. IF parents is pretentious AND has_nurs is improper AND form is incomplete AND children is 2 AND housing is less_conv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+370. IF parents is pretentious AND has_nurs is improper AND form is completed AND children is 1 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+371. IF parents is pretentious AND has_nurs is improper AND form is completed AND children is 1 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+372. IF parents is pretentious AND has_nurs is improper AND form is completed AND children is 1 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+373. IF parents is pretentious AND has_nurs is improper AND form is completed AND children is 1 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+374. IF parents is pretentious AND has_nurs is improper AND form is completed AND children is 2 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+375. IF parents is pretentious AND has_nurs is improper AND form is completed AND children is 2 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+376. IF parents is pretentious AND has_nurs is improper AND form is completed AND children is 2 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+377. IF parents is pretentious AND has_nurs is improper AND form is completed AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+378. IF parents is pretentious AND has_nurs is improper AND form is complete AND children is 2 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+379. IF parents is pretentious AND has_nurs is improper AND form is complete AND children is 2 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+380. IF parents is pretentious AND has_nurs is improper AND form is complete AND children is 2 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+381. IF parents is pretentious AND has_nurs is improper AND form is complete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+382. IF parents is pretentious AND has_nurs is critical AND form is incomplete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+383. IF parents is usual AND has_nurs is less_proper AND form is incomplete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+384. IF parents is usual AND has_nurs is proper AND form is incomplete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+385. IF parents is usual AND has_nurs is improper AND form is incomplete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+386. IF parents is usual AND has_nurs is critical AND form is incomplete AND children is 1 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+387. IF parents is usual AND has_nurs is critical AND form is incomplete AND children is 1 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+388. IF parents is usual AND has_nurs is critical AND form is incomplete AND children is 1 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+389. IF parents is usual AND has_nurs is critical AND form is incomplete AND children is 1 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+390. IF parents is usual AND has_nurs is critical AND form is completed AND children is 1 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+391. IF parents is usual AND has_nurs is critical AND form is completed AND children is 1 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+392. IF parents is usual AND has_nurs is critical AND form is completed AND children is 1 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+393. IF parents is usual AND has_nurs is critical AND form is completed AND children is 1 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+394. IF parents is usual AND has_nurs is critical AND form is completed AND children is 2 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+395. IF parents is usual AND has_nurs is critical AND form is completed AND children is 2 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+396. IF parents is usual AND has_nurs is critical AND form is completed AND children is 2 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+397. IF parents is usual AND has_nurs is critical AND form is completed AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+398. IF parents is usual AND has_nurs is critical AND form is complete AND children is 2 AND housing is convenient AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+399. IF parents is usual AND has_nurs is critical AND form is complete AND children is 2 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+400. IF parents is usual AND has_nurs is critical AND form is complete AND children is 2 AND housing is less_conv AND health is priority THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+401. IF parents is usual AND has_nurs is critical AND form is complete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+402. IF parents is great_pret AND has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+403. IF parents is great_pret AND has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+404. IF parents is great_pret AND has_nurs is less_proper AND form is completed AND children is 1 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+405. IF parents is great_pret AND has_nurs is less_proper AND form is completed AND children is 1 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+406. IF parents is great_pret AND has_nurs is less_proper AND form is completed AND children is 2 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+407. IF parents is great_pret AND has_nurs is less_proper AND form is completed AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+408. IF parents is great_pret AND has_nurs is less_proper AND form is complete AND children is 2 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+409. IF parents is great_pret AND has_nurs is less_proper AND form is complete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+410. IF parents is great_pret AND has_nurs is proper AND form is incomplete AND children is 1 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+411. IF parents is great_pret AND has_nurs is proper AND form is incomplete AND children is 1 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+412. IF parents is great_pret AND has_nurs is proper AND form is completed AND children is 1 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+413. IF parents is great_pret AND has_nurs is proper AND form is completed AND children is 1 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+414. IF parents is great_pret AND has_nurs is proper AND form is completed AND children is 2 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+415. IF parents is great_pret AND has_nurs is proper AND form is completed AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+416. IF parents is great_pret AND has_nurs is proper AND form is complete AND children is 2 AND housing is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+417. IF parents is great_pret AND has_nurs is proper AND form is complete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+418. IF parents is great_pret AND has_nurs is improper AND form is incomplete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+419. IF parents is great_pret AND has_nurs is critical AND form is incomplete AND children is 2 AND housing is less_conv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+420. IF parents is pretentious AND has_nurs is less_proper AND form is incomplete AND children is 2 AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+421. IF parents is pretentious AND has_nurs is proper AND form is incomplete AND children is 2 AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+422. IF parents is pretentious AND has_nurs is improper AND form is incomplete AND children is 2 AND finance is inconv AND health is priority THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+423. IF parents is pretentious AND has_nurs is critical AND form is incomplete AND children is 2 AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+424. IF parents is usual AND has_nurs is less_proper AND form is incomplete AND children is 2 AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+425. IF parents is usual AND has_nurs is proper AND form is incomplete AND children is 2 AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+426. IF parents is usual AND has_nurs is improper AND form is incomplete AND children is 2 AND finance is inconv AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+427. IF parents is great_pret AND has_nurs is improper AND form is incomplete AND children is 2 AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+428. IF parents is great_pret AND has_nurs is critical AND form is incomplete AND children is 2 AND finance is inconv AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+429. IF parents is pretentious AND has_nurs is less_proper AND form is complete AND children is 1 AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+430. IF parents is pretentious AND has_nurs is less_proper AND form is complete AND children is 1 AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+431. IF parents is pretentious AND has_nurs is proper AND form is complete AND children is 1 AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+432. IF parents is pretentious AND has_nurs is proper AND form is complete AND children is 1 AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+433. IF parents is usual AND has_nurs is less_proper AND form is complete AND children is 1 AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+434. IF parents is usual AND has_nurs is less_proper AND form is complete AND children is 1 AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+435. IF parents is usual AND has_nurs is improper AND form is complete AND children is 1 AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+436. IF parents is usual AND has_nurs is improper AND form is complete AND children is 1 AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+437. IF parents is pretentious AND has_nurs is improper AND form is foster AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006172839506172839
+438. IF parents is pretentious AND has_nurs is improper AND form is foster AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006172839506172839
+439. IF parents is pretentious AND has_nurs is improper AND form is incomplete AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006172839506172839
+440. IF parents is pretentious AND has_nurs is improper AND form is completed AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006172839506172839
+441. IF parents is pretentious AND has_nurs is improper AND form is foster AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.000925925925925926
+442. IF parents is pretentious AND has_nurs is improper AND children is 3 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006172839506172839
+443. IF parents is pretentious AND has_nurs is improper AND children is 3 AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006172839506172839
+444. IF parents is pretentious AND has_nurs is improper AND children is more AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006172839506172839
+445. IF parents is pretentious AND has_nurs is improper AND children is more AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006172839506172839
+446. IF parents is pretentious AND has_nurs is improper AND children is 2 AND housing is critical AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006172839506172839
+447. IF parents is pretentious AND has_nurs is improper AND children is 3 AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.000925925925925926
+448. IF parents is pretentious AND has_nurs is improper AND children is more AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.000925925925925926
+449. IF parents is pretentious AND has_nurs is less_proper AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.0012345679012345679
+450. IF parents is pretentious AND has_nurs is less_proper AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.0012345679012345679
+451. IF parents is pretentious AND has_nurs is proper AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.0012345679012345679
+452. IF parents is pretentious AND has_nurs is proper AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.0012345679012345679
+453. IF parents is usual AND has_nurs is less_proper AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.0012345679012345679
+454. IF parents is usual AND has_nurs is less_proper AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.0012345679012345679
+455. IF parents is usual AND has_nurs is improper AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.0012345679012345679
+456. IF parents is usual AND has_nurs is improper AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.0012345679012345679
+457. IF parents is great_pret AND form is complete AND children is 1 AND housing is convenient AND finance is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0011574074074074073
+458. IF parents is great_pret AND form is incomplete AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+459. IF parents is great_pret AND form is incomplete AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+460. IF parents is great_pret AND form is incomplete AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+461. IF parents is great_pret AND form is incomplete AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+462. IF parents is great_pret AND form is incomplete AND children is 2 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+463. IF parents is great_pret AND form is completed AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+464. IF parents is great_pret AND form is completed AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+465. IF parents is great_pret AND form is completed AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+466. IF parents is great_pret AND form is completed AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+467. IF parents is great_pret AND form is completed AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+468. IF parents is great_pret AND form is completed AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+469. IF parents is great_pret AND form is completed AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+470. IF parents is great_pret AND form is completed AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+471. IF parents is great_pret AND form is complete AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+472. IF parents is great_pret AND form is complete AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+473. IF parents is great_pret AND form is complete AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+474. IF parents is great_pret AND form is complete AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0007716049382716049
+475. IF parents is great_pret AND form is incomplete AND children is 2 AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0011574074074074073
+476. IF has_nurs is critical AND form is complete AND children is 1 AND housing is convenient AND finance is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+477. IF has_nurs is very_crit AND form is complete AND children is 1 AND housing is convenient AND finance is convenient AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+478. IF has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is convenient AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+479. IF has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+480. IF has_nurs is less_proper AND form is incomplete AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+481. IF has_nurs is less_proper AND form is incomplete AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+482. IF has_nurs is less_proper AND form is completed AND children is 1 AND housing is convenient AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+483. IF has_nurs is less_proper AND form is completed AND children is 1 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+484. IF has_nurs is less_proper AND form is completed AND children is 2 AND housing is convenient AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+485. IF has_nurs is less_proper AND form is completed AND children is 2 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+486. IF has_nurs is less_proper AND form is complete AND children is 2 AND housing is convenient AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+487. IF has_nurs is less_proper AND form is complete AND children is 2 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+488. IF has_nurs is proper AND form is incomplete AND children is 1 AND housing is convenient AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+489. IF has_nurs is proper AND form is incomplete AND children is 1 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+490. IF has_nurs is proper AND form is incomplete AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+491. IF has_nurs is proper AND form is incomplete AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+492. IF has_nurs is proper AND form is completed AND children is 1 AND housing is convenient AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+493. IF has_nurs is proper AND form is completed AND children is 1 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+494. IF has_nurs is proper AND form is completed AND children is 2 AND housing is convenient AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+495. IF has_nurs is proper AND form is completed AND children is 2 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+496. IF has_nurs is proper AND form is complete AND children is 2 AND housing is convenient AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+497. IF has_nurs is proper AND form is complete AND children is 2 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+498. IF has_nurs is critical AND form is incomplete AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+499. IF has_nurs is critical AND form is incomplete AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+500. IF has_nurs is critical AND form is incomplete AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+501. IF has_nurs is critical AND form is incomplete AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+502. IF has_nurs is critical AND form is incomplete AND children is 2 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+503. IF has_nurs is critical AND form is completed AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+504. IF has_nurs is critical AND form is completed AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+505. IF has_nurs is critical AND form is completed AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+506. IF has_nurs is critical AND form is completed AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+507. IF has_nurs is critical AND form is completed AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+508. IF has_nurs is critical AND form is completed AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+509. IF has_nurs is critical AND form is completed AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+510. IF has_nurs is critical AND form is completed AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+511. IF has_nurs is critical AND form is complete AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+512. IF has_nurs is critical AND form is complete AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+513. IF has_nurs is critical AND form is complete AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+514. IF has_nurs is critical AND form is complete AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+515. IF has_nurs is very_crit AND form is incomplete AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+516. IF has_nurs is very_crit AND form is incomplete AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+517. IF has_nurs is very_crit AND form is incomplete AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+518. IF has_nurs is very_crit AND form is incomplete AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+519. IF has_nurs is very_crit AND form is completed AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+520. IF has_nurs is very_crit AND form is completed AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+521. IF has_nurs is very_crit AND form is completed AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+522. IF has_nurs is very_crit AND form is completed AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+523. IF has_nurs is very_crit AND form is completed AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+524. IF has_nurs is very_crit AND form is completed AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+525. IF has_nurs is very_crit AND form is completed AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+526. IF has_nurs is very_crit AND form is completed AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+527. IF has_nurs is very_crit AND form is complete AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+528. IF has_nurs is very_crit AND form is complete AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+529. IF has_nurs is very_crit AND form is complete AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+530. IF has_nurs is very_crit AND form is complete AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.000462962962962963
+531. IF has_nurs is less_proper AND form is incomplete AND children is 2 AND finance is inconv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+532. IF has_nurs is less_proper AND form is incomplete AND children is 2 AND finance is inconv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+533. IF has_nurs is proper AND form is incomplete AND children is 2 AND finance is inconv AND social is slightly_prob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+534. IF has_nurs is proper AND form is incomplete AND children is 2 AND finance is inconv AND social is nonprob AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+535. IF has_nurs is critical AND form is incomplete AND children is 2 AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0006944444444444445
+536. IF form is complete AND children is 1 AND housing is convenient AND finance is convenient AND social is problematic AND health is recommended THEN Class is priority.
+	Precision:  1.0
+	Coverage:  0.0011574074074074073
+537. IF parents is pretentious AND has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+538. IF parents is pretentious AND has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+539. IF parents is pretentious AND has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+540. IF parents is pretentious AND has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+541. IF parents is pretentious AND has_nurs is less_proper AND form is completed AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+542. IF parents is pretentious AND has_nurs is less_proper AND form is completed AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+543. IF parents is pretentious AND has_nurs is less_proper AND form is completed AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+544. IF parents is pretentious AND has_nurs is less_proper AND form is completed AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+545. IF parents is pretentious AND has_nurs is less_proper AND form is completed AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+546. IF parents is pretentious AND has_nurs is less_proper AND form is completed AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+547. IF parents is pretentious AND has_nurs is less_proper AND form is completed AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+548. IF parents is pretentious AND has_nurs is less_proper AND form is completed AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+549. IF parents is pretentious AND has_nurs is less_proper AND form is complete AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+550. IF parents is pretentious AND has_nurs is less_proper AND form is complete AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+551. IF parents is pretentious AND has_nurs is less_proper AND form is complete AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+552. IF parents is pretentious AND has_nurs is less_proper AND form is complete AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+553. IF parents is pretentious AND has_nurs is improper AND form is incomplete AND children is 2 AND housing is less_conv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+554. IF parents is pretentious AND has_nurs is proper AND form is incomplete AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+555. IF parents is pretentious AND has_nurs is proper AND form is incomplete AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+556. IF parents is pretentious AND has_nurs is proper AND form is incomplete AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+557. IF parents is pretentious AND has_nurs is proper AND form is incomplete AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+558. IF parents is pretentious AND has_nurs is proper AND form is completed AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+559. IF parents is pretentious AND has_nurs is proper AND form is completed AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+560. IF parents is pretentious AND has_nurs is proper AND form is completed AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+561. IF parents is pretentious AND has_nurs is proper AND form is completed AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+562. IF parents is pretentious AND has_nurs is proper AND form is completed AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+563. IF parents is pretentious AND has_nurs is proper AND form is completed AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+564. IF parents is pretentious AND has_nurs is proper AND form is completed AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+565. IF parents is pretentious AND has_nurs is proper AND form is completed AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+566. IF parents is pretentious AND has_nurs is proper AND form is complete AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+567. IF parents is pretentious AND has_nurs is proper AND form is complete AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+568. IF parents is pretentious AND has_nurs is proper AND form is complete AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+569. IF parents is pretentious AND has_nurs is proper AND form is complete AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+570. IF parents is usual AND has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+571. IF parents is usual AND has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+572. IF parents is usual AND has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+573. IF parents is usual AND has_nurs is less_proper AND form is incomplete AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+574. IF parents is usual AND has_nurs is less_proper AND form is completed AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+575. IF parents is usual AND has_nurs is less_proper AND form is completed AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+576. IF parents is usual AND has_nurs is less_proper AND form is completed AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+577. IF parents is usual AND has_nurs is less_proper AND form is completed AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+578. IF parents is usual AND has_nurs is less_proper AND form is completed AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+579. IF parents is usual AND has_nurs is less_proper AND form is completed AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+580. IF parents is usual AND has_nurs is less_proper AND form is completed AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+581. IF parents is usual AND has_nurs is less_proper AND form is completed AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+582. IF parents is usual AND has_nurs is less_proper AND form is complete AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+583. IF parents is usual AND has_nurs is less_proper AND form is complete AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+584. IF parents is usual AND has_nurs is less_proper AND form is complete AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+585. IF parents is usual AND has_nurs is less_proper AND form is complete AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+586. IF parents is usual AND has_nurs is improper AND form is incomplete AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+587. IF parents is usual AND has_nurs is improper AND form is incomplete AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+588. IF parents is usual AND has_nurs is improper AND form is incomplete AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+589. IF parents is usual AND has_nurs is improper AND form is incomplete AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+590. IF parents is usual AND has_nurs is improper AND form is completed AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+591. IF parents is usual AND has_nurs is improper AND form is completed AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+592. IF parents is usual AND has_nurs is improper AND form is completed AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+593. IF parents is usual AND has_nurs is improper AND form is completed AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+594. IF parents is usual AND has_nurs is improper AND form is completed AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+595. IF parents is usual AND has_nurs is improper AND form is completed AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+596. IF parents is usual AND has_nurs is improper AND form is completed AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+597. IF parents is usual AND has_nurs is improper AND form is completed AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+598. IF parents is usual AND has_nurs is improper AND form is complete AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+599. IF parents is usual AND has_nurs is improper AND form is complete AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+600. IF parents is usual AND has_nurs is improper AND form is complete AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+601. IF parents is usual AND has_nurs is improper AND form is complete AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+602. IF parents is usual AND has_nurs is proper AND form is incomplete AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+603. IF parents is usual AND has_nurs is proper AND form is incomplete AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+604. IF parents is usual AND has_nurs is proper AND form is incomplete AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+605. IF parents is usual AND has_nurs is proper AND form is incomplete AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+606. IF parents is usual AND has_nurs is proper AND form is completed AND children is 1 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+607. IF parents is usual AND has_nurs is proper AND form is completed AND children is 1 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+608. IF parents is usual AND has_nurs is proper AND form is completed AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+609. IF parents is usual AND has_nurs is proper AND form is completed AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+610. IF parents is usual AND has_nurs is proper AND form is completed AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+611. IF parents is usual AND has_nurs is proper AND form is completed AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+612. IF parents is usual AND has_nurs is proper AND form is completed AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+613. IF parents is usual AND has_nurs is proper AND form is completed AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+614. IF parents is usual AND has_nurs is proper AND form is complete AND children is 1 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+615. IF parents is usual AND has_nurs is proper AND form is complete AND children is 1 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+616. IF parents is usual AND has_nurs is proper AND form is complete AND children is 1 AND housing is critical AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+617. IF parents is usual AND has_nurs is proper AND form is complete AND children is 1 AND housing is critical AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+618. IF parents is usual AND has_nurs is proper AND form is complete AND children is 2 AND housing is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+619. IF parents is usual AND has_nurs is proper AND form is complete AND children is 2 AND housing is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+620. IF parents is usual AND has_nurs is proper AND form is complete AND children is 2 AND housing is less_conv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+621. IF parents is usual AND has_nurs is proper AND form is complete AND children is 2 AND housing is less_conv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00015432098765432098
+622. IF parents is pretentious AND has_nurs is improper AND form is incomplete AND children is 2 AND finance is inconv AND social is problematic AND health is recommended THEN Class is spec_prior.
+	Precision:  1.0
+	Coverage:  0.0002314814814814815
+623. IF parents is usual AND has_nurs is proper AND form is complete AND children is 1 AND finance is inconv AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.0002314814814814815
+624. IF parents is usual AND has_nurs is proper AND form is complete AND children is 1 AND finance is inconv AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.0002314814814814815
+625. IF parents is usual AND has_nurs is proper AND form is foster AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00030864197530864197
+626. IF parents is usual AND has_nurs is proper AND form is foster AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00030864197530864197
+627. IF parents is usual AND has_nurs is proper AND form is incomplete AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00030864197530864197
+628. IF parents is usual AND has_nurs is proper AND form is incomplete AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00030864197530864197
+629. IF parents is usual AND has_nurs is proper AND form is completed AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00030864197530864197
+630. IF parents is usual AND has_nurs is proper AND form is completed AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00030864197530864197
+631. IF parents is usual AND has_nurs is proper AND children is 3 AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00030864197530864197
+632. IF parents is usual AND has_nurs is proper AND children is 3 AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00030864197530864197
+633. IF parents is usual AND has_nurs is proper AND children is more AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00030864197530864197
+634. IF parents is usual AND has_nurs is proper AND children is more AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00030864197530864197
+635. IF parents is usual AND has_nurs is proper AND children is 2 AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00030864197530864197
+636. IF parents is usual AND has_nurs is proper AND children is 2 AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is very_recom.
+	Precision:  1.0
+	Coverage:  0.00030864197530864197
+637. IF parents is usual AND has_nurs is proper AND form is complete AND children is 1 AND housing is convenient AND finance is convenient AND social is slightly_prob AND health is recommended THEN Class is recommend.
+	Precision:  1.0
+	Coverage:  7.716049382716049e-05
+638. IF parents is usual AND has_nurs is proper AND form is complete AND children is 1 AND housing is convenient AND finance is convenient AND social is nonprob AND health is recommended THEN Class is recommend.
+	Precision:  1.0
+	Coverage:  7.716049382716049e-05
+-----------------------------------------------------------------------------
